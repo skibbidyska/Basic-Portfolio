@@ -1,0 +1,212 @@
+/*---body styles---*/
+body{
+    background-image: url('../images/doodles.png');
+    background-color: #e2e2e5a4
+}
+
+/*---header styles---*/
+header{
+    background-color:#fff;
+    overflow: hidden;
+}
+.headerContainer{
+    margin: 0 auto;
+    width: 960px;
+    background-color: #fff;
+    position: relative;
+    
+}
+header h1{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+.namePlate{
+    float: left;
+    background-color: #4aaaa5;
+    height: 47px;
+    padding:20px 25px 0px 25px;   
+}   
+.headerNav{
+    float: right;
+    height: 47px;
+    padding:20px 0px 0px 25px;
+
+}
+
+/*---content container---*/
+.contentContainer{
+    margin: 0 auto;
+    width: 960px;
+    
+}
+/*---article styles---*/
+article{
+    margin-top: 50px;
+    margin-bottom: 126px;
+    width: 548px;
+    float: left;
+    background-color:#ffffff;
+    padding: 50px 50px 25px 50px;
+    border: 1px solid #dddddd;
+}
+
+article h1{
+    border-bottom: #dddddd;
+    padding-bottom:25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+aside{
+    margin-top: 50px;
+    width: 268px;
+    float: right;
+    background-color:#ffffff;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+aside h3{
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+    border-bottom: thin solid #dddddd;
+
+}
+.aboutMeP2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #666666;
+    line-height: 1.5;
+    
+}
+.aboutMeP{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #666666;
+    line-height: 1.5;
+    
+}
+.aboutMePhoto{
+    float: left; 
+    padding: 50px 25px 5px 0px;
+}
+
+/*---footer style---*/
+
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;    
+    text-align: center;
+    clear:both;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    height: 66px;
+    color: #ffffff;
+}
+footer p{
+    padding-top: 20px;
+}
+
+
+
+/*---bottom border---*/
+.bottomBorder{
+    border-bottom: 3px solid #dddddd;
+}
+/*---text changes---*/
+a, p, form, input{
+    font-family: Arial, Helvetica, sans-serif, 'Helvetica Neue';
+}
+h1, h2, h3, h4, h5, h6{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.namePlate h1 a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*---navigation links---*/
+nav a{
+    float: left;
+    margin-top: 5px;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+    color: #666666;
+}
+.borderRight{
+    border-right: 1px solid #d3d0d0;
+    padding-right: 20px;
+}
+
+/*---contact nav links---*/
+.contactNav a{
+    padding: 20px 10px;
+    float:left;
+    margin-left: 15px;
+
+    
+}
+
+/*---form styles---*/
+
+.contentContainer form{
+    padding-top: 25px;
+}
+.formMargin{
+    margin-top:15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.messageBox{
+    width:100%;
+    height:200px;
+    vertical-align: top;
+}
+form{
+    color: #666666;
+}
+input{
+    color: #666666;
+}
+
+/*---portfolio box styles---*/
+
+.portfolioImgL{
+    float: left;
+    width: 250px;
+    margin-top:20px;
+    position: relative;
+}
+.portfolioImgR{
+    float: right;
+    width: 250px;
+    margin-top:20px;
+    position: relative;
+}
+.clearPortfolio{
+    clear: both;
+}
+.portfolioTextBox{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    position: absolute;
+    width: 100%;
+    bottom:10px;
+}
+.portfolioTextBox p{
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    
+}
+textarea{
+    resize: none;
+}
